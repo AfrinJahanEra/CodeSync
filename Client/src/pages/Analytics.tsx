@@ -16,8 +16,6 @@ import {
 } from 'recharts';
 import { mockAnalytics } from '../services/mockData';
 
-const COLORS = ['#3b82f6', '#10b981', '#ef4444', '#f59e0b', '#8b5cf6'];
-
 const Analytics: React.FC = () => {
   const platformData = Object.entries(mockAnalytics.byPlatform).map(([platform, count]) => ({
     platform: platform.charAt(0).toUpperCase() + platform.slice(1),
