@@ -50,8 +50,8 @@ const Analytics: React.FC = () => {
 
   // Custom label for pie chart
   const renderCustomizedLabel = ({
-    cx, cy, midAngle, innerRadius, outerRadius, percent, name
-  }: any) => {
+    cx, cy, midAngle, innerRadius, outerRadius, percent
+  }:any) => {
     if (!percent) return null;
     
     const RADIAN = Math.PI / 180;

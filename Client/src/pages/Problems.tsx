@@ -1,6 +1,6 @@
 // src/pages/Problems.tsx
 import React, { useState } from 'react';
-import { Search, Filter, Grid, List } from 'lucide-react';
+import { Search, Grid, List } from 'lucide-react';
 import { mockProblems } from '../services/mockData';
 import ProblemCard from '../components/Problems/ProblemCard';
 import ProblemFilters from '../components/Problems/ProblemFilters';
